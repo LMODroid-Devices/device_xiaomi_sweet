@@ -34,7 +34,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display/qdcm_calib_data_xiaomi_k6_38_0e_0b_fhd_dsc_video_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_k6_38_0e_0b_fhd_dsc_video_dsi_panel.xml
 
 PRODUCT_PACKAGES += \
-    libsdmcore-shim
+    hwcomposer.qcom
 
 # Init scripts
 PRODUCT_COPY_FILES += \
@@ -79,10 +79,6 @@ PRODUCT_PACKAGES += \
     SweetinproSettingsProvider \
     SweetinproWifiOverlay \
     SweetWifiOverlay
-
-# Perf
-PRODUCT_PACKAGES += \
-    libqti-perfd-client
 
 # Power
 PRODUCT_COPY_FILES += \

@@ -6,8 +6,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lmodroid_sweet.mk
-
-COMMON_LUNCH_CHOICES := \
-    lmodroid_sweet-user \
-    lmodroid_sweet-userdebug \
-    lmodroid_sweet-eng
